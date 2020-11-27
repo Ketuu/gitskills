@@ -32,7 +32,7 @@ git diff \<filename> 　　　查看工作区和暂存区的不同
 rm xxx.xx   删除文件   git rm xx.xx  git commit  
 git check out -- xxx.xx   把XX文件在工作区的修改全部撤销。  
 
-### 关联远程服务器
+### 生成本地密钥
 
 >ssh-keygen -t rsa -C youremail@example.com  
 生成ssh密钥  复制id_rsa.pub中的内容（user/.ssh/）
